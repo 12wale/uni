@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+#students{
+    width: 100%;
+    height: 1025px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*IS main style*/
+
+#students .content_stu {
+    width: 100%;
+    height: max-content;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(0 34 41 / 45%);
+    padding: 10px;
+    margin: 10px;
+}
+.content_stu .up{
+    display: flex;
+}
+.content_stu .top{
+    width: 72%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.content_stu .top .head{
+    color: white;
+    display: flex;
+    flex-direction:column ;
+    gap: 15px;
+}
+.head h1{
+    font-size: 40px;
+}
+.top > div{
+    width: 100%;
+    background-color: rgba(0, 68, 82, 0.671);
+    padding: 15px;
+    text-align: center;
+    height: 33%;
+}
+.top a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: 0.5s;
+    &:hover{
+        color: rgb(44, 123, 208);
+    }
+}
+.mid{
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.mid p{
+    font-size: 20px;
+}
+.mid ul{
+    text-align: start;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+}
+.top .foot{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot .icon_img{
+    max-width: fit-content;
+    background-color: rgba(13, 84, 87, 0.81);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.icon_img img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+/*IS a sidebar style*/
+.content_stu .aside{
+    width: 28%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 8px;
+    background-color: rgba(27, 46, 50, 0.51);
+    text-align: center;
+    color: white;
+}
+.aside .art{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#students #dive{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 84, 87, 0.81);
+    padding: 10px;
+}
+#dive table{
+    width: 95%;
+    color: white;
+    font-weight: bold;
+}

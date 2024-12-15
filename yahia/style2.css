@@ -1,0 +1,174 @@
+/**{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.9);
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(0, 0, 255, 0.874);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(photo_٢٠٢٤-١٢-٠٩_١٧-٢٩-٥٨.jpg) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat:no-repeat ;
+    background-size: cover;
+}*/
+.container2{
+    width: 100%;
+    height: 100vh;
+}
+
+/**/
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-color:rgba(0, 34, 41, 0.448) ;
+    width: 100%;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+}
+aside{
+    background-color:rgba(0, 34, 41, 0.448) ;
+    width: 28%;
+    height: fit-content;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+    position: relative;
+}
+h1,h2 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 160%;
+}
+.bod{
+    display: flex;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    font-size: 160%;
+   margin: 5px;
+   display: flex;
+}
+ol {
+    list-style-type: none;
+    counter-reset: ms;
+  }
+  
+  ol li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  ol li::before {
+   
+    content: counter(ms) " -- ";
+    counter-increment: ms ;
+    left: 0;
+    top: 50%;
+  }
+  
+  .man{
+    width: auto;
+    justify-content: center;
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    background-color:  rgba(0, 68, 82, 0.448);
+  }
+  #da3{
+    display: flex;
+    width: 500px;
+    height: auto;
+    justify-content: space-between;
+    background-color: rgba(0, 68, 82, 0.448);
+    border: 5px skyblue solid;
+   
+  }
+
+   #asi{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+   }
+   p{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    text-align: center;
+   }
+   #dive{
+    width: 100%;
+    background-color:rgba(0, 34, 41, 0.448) ;
+    padding: 5px;
+   }
+   #dive h1{
+    font-family: sans-serif;
+    padding: 10px;
+   }
+   table{
+    width: 100%;
+    background-color: rgba(0, 68, 82, 0.448);
+    border: 5px skyblue solid;
+    font-size: 150%;
+    text-decoration-color: black;  
+}
+   .sup{
+    width: auto;
+    height: auto;   
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgba(0, 68, 82, 0.448);
+   }
+   #sup1,#sup2{
+    background-color: rgba(0, 68, 82, 0.448);
+    border: 0px skyblue solid;
+    box-shadow:  0px 0px 5px  rgb(0, 0, 211);
+    transition: 0.5s;
+    &:hover{
+    box-shadow: 5px 1px 5px rgb(0, 0, 211), 0px 0px 10px rgb(11, 11, 11);
+    }
+   }
+   .link{
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+   }
+   .links{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    border-radius: 50%;
+   }
+   
+   .hov:hover{
+    text-decoration-color: black;
+    color: rgba(0, 5, 11, 0.664);
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.63);
+   }
